@@ -34,7 +34,6 @@ namespace ChallengeTownSQ
                 for (int i = 0; i < arrS.Length; i++)
                 {
                     
-                    //arr[i] = int.Parse(arrS[i]);
                     if (!int.TryParse(arrS[i], out arr[i]) || arr[i] < 0 || arr[i] > 4)
                     {
                         Console.WriteLine("Você digitou um voto incorreto. Vamos tentar novamente.");
